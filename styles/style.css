@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section*/
+.header{
+    height: 780px;
+    background-image: url(../styles/images/banner/banner3.png);
+    background-size: cover;
+    background-position:bottom left;
+    text-align: right;
+    color: #fff;
+    position: relative;
+}
+.con_width{
+    width: 500px;
+    position: absolute;
+    top:230px;
+    right:100px;
+}
+.head_title{
+    font-size: 65px;
+}
+.head_des{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+button{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 0px 25px;
+    height: 60px;
+    border: 0;
+}
+
+.btn_primary{
+    background-color:#fff ;
+    color:#005FAC;
+    margin-top: 15px;
+}
+
+/* main section */
+.sec_failure{
+    display: flex;
+    margin: 80px 150px;
+    gap: 100px;
+}
+.img{
+    height: 140px;
+}
+.previous_section{
+    padding-top: 100px;
+}
+
+.section_des{
+    padding: 20px 10px;
+}
+.failure_list{
+    padding-left: 5px;
+    list-style: none;
+    margin-top: 5px;
+    color: #444343;
+}
+/* my plans section */
+.title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 50px 0px;
+}
+.my_plans{
+    display: flex;
+    height: 40vh;
+    gap: 10px;
+    margin: 0 30px;
+}
+.plan_1{
+    text-align: center;
+    margin-left: auto;
+    
+}
+.plan_1 h3{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 0;
+}
+ /* advertisement section  */
+
+.container{
+    height: 35vh;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../styles/images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px 100px;
+    border-radius: 5px;
+}
+.title{
+    padding: 30px 90px;
+}
+.subtitle{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    
+}
+.call-now .btn-primary {
+    background-color: aliceblue;
+    color: #F15B22;
+    font-weight: 600;
+    padding: 20px 40px;
+}
+/* Footer section */
+
+.footer-section{
+    background-color: #151414;
+    height: 70vh;
+}
+.footer-main{
+    display: flex;
+    margin: 0 200px;
+    padding-top: 100px;
+    gap: 50px;
+}
+.footer-future{
+    color: #FFFF;
+}
+.footer-icon img{
+    width: 30px;
+    height: auto;
+}
+.footer-text{
+    padding: 10px 0;
+}
+.footer-right-section{
+    padding-left: 260px;
+}
+.footer-right-title{
+    color: #FFFF;
+}
+.footer-mail{
+    color: #ffffff;
+    padding: 20px 40px;
+    background: none;
+    outline: none;
+    border-radius: 10px;
+    border: solid 1px white;
+}
+.btn-primary{
+    color: #F15B22;
+}
+
+
+
